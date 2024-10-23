@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Xpert E-Commerce</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 mt-3">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <img src="./Images/Xpert logo1 1.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-8 d-flex align-items-center">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search For Products">
+                            <div class="btn btn-primary">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center mt-3">
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>1234567890</span>
+                    </div>
+                    <div class="col-6 d-flex justify-content-around">
+                        <div class="btn btn-outline-primary">
+                            <a class="nav-link" href="#">Login</a>
+                        </div>
+                        <div class="btn btn-outline-primary">
+                            <a class="nav-link" href="#">Signup</a>
+                        </div>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <div class="bg-primary p-2 rounded d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle bg-primary text-white rounded" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-list" style="color: #ffffff;"></i>
+                            <span> View All Products</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Business Card</a></li>
+                            <li><a class="dropdown-item" href="#">Wedding Card</a></li>
+                            <li><a class="dropdown-item" href="#">Restaurant Menu</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            200+ Printing Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">All Visiting Card</a></li>
+                            <li><a class="dropdown-item" href="#">Premium business Card</a></li>
+                            <li><a class="dropdown-item" href="#">Standard Visiting Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Service 1</a></li>
+                            <li><a class="dropdown-item" href="#">Service 2</a></li>
+                            <li><a class="dropdown-item" href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Custom Quote</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Shop By Industry</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Top Image -->
+    <div class="fluid-container bg-primary my-2">
+        <div class="row mx-0">
+            <img src="./Images/Printing-PNG-Image-File 1.png" alt="" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Top Seller -->
+    <div class="container mt-5">
+        <div class="row">
+            <p class="fs-1 fw-bold text-muted">Top Sellers</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 24.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Brochure</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Custom Brochure Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$59.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 27.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Bookmarks</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Quality Bookmarks Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$49.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 26.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Business Card</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Business Card Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$35.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 25.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Flyers</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Club Flyers Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$219.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 24 (1).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Color Copies</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Color Copies Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$19.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 27 (1).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Die-Cut</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Die-Cut Business Card</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$203.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 26 (1).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Restaurant Menu</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Restaurant Menu Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$32.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 25 (1).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">DVD Case Insert</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">DVD Case Insert Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$49.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 25 (2).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">EDDM Brochure</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">EDDM Brochure Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$154.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 27 (2).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">EDDM Flyer</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">EDDM Flyer Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$174.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 26 (2).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">EDDM Restaurant</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Restaurant Menu Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$233.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 25 (3).png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Envelope</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Envelope Print</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$151.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="container mt-5">
+        <div class="row">
+            <p class="fs-1 fw-bold text-muted">Featured Products</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 1.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Flat Invitation Card</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Invitation Card Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$44.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 2.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Special Invitation</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Special Invitation Card Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$44.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/image 3.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Gift Certificate</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Gift Certificate Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$39.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/4.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Wedding Invitation</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Wedding Card Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$79.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/5.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Letterhead</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Letterhead Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$94.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/6.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Loyalty Card</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Loyalty Card Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$37.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/7.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Postcard Card</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Postcard Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$69.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/8.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Tear Off Card</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Tear Off Card Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$139.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Best Deals -->
+    <div class="container mt-5">
+        <div class="row">
+            <p class="fs-1 fw-bold text-muted">Best Deals</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/12.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">NCR Business Form</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">NCR Business Form Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$109.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/11.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Static Window Cling</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Static Window Cling Poster</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$35.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/10.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Floor Graphic</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Floor Graphic Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$36.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-3 h-100">
+                <div class="card">
+                    <img src="./Images/9.png" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Photo Canvas</h5>
+                            <div class="icons">
+                                <a href="#" class="text-primary"><i class="far fa-heart"></i></a>
+                                <a href="#" class="text-primary me-2"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                        <p class="card-text my-0">Photo Canvas Printing</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary fs-5 mb-0">$44.99</h6>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-solid fa-star fa-2xs" style="color: #0d6efd;"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                                <i class="fa-regular fa-star fa-2xs" style="color: #0d6efd"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROMOTIONAL ITEMS -->
+    <div class="container mt-5">
+        <div class="row">
+            <h1 class="text-center fw-bold fs-1">Trusted Online Printer of Choice</h1>
+        </div>
+        <div class="row">
+            <img src="./Images/image 65.png" alt="">
+        </div>
+        <div class="row mt-5">
+            <h1 class="text-center fw-bold fs-1">PROMOTIONAL ITEMS</h1>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-6 mt-4 h-100">
+                <div class="card text-center">
+                    <img src="./Images/image 54.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Plastic Deluxe A Frame Sign</h5>
+                        <p class="card-text text-center">Best of Street</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-4 h-50">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-5 d-flex justify-content-center justify-content-md-start">
+                            <img src="./Images/image 59.png" alt="...">
+                        </div>
+                        <div class="col-md-7 text-center">
+                            <div class="card-body h-100 d-flex justify-content-center flex-column bg-primary">
+                                <h5 class="card-title text-white">Window Decal</h5>
+                                <p class="card-text text-white">Advertise On Window Glass</p>
+                                <a href="#" class="btn btn-outline-light">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 h-100">
+                        <div class="card text-center">
+                            <img src="./Images/image 57.png" class="card-img-top" alt="">
+                            <div class="card-body bg-primary pt-0">
+                                <h5 class="card-title text-white  py-0 my-0 ">Restaurant Menu Printing</h5>
+                                <p class="card-text text-white">Save Bill On Menus</p>
+                                <a href="#" class="btn btn-outline-light">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 h-100">
+                        <div class="card text-center">
+                            <img src="./Images/image 58.png" class="card-img-top" alt="">
+                            <div class="card-body pt-0">
+                                <h5 class="card-title py-0 my-0">Bussiness Card Printing</h5>
+                                <p class="card-text mt-0">Quality Printing</p>
+                                <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOW WE MAKE PRINTING AS EASY -->
+    <div class="container mt-5">
+        <h1 class="mt-5 text-center">HOW WE MAKE PRINTING AS EASY</h1>
+    </div>
+
+    <div class="fluid-container bg-primary mt-3">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="row fs-4 fw-bold">
+                        We Make Printing as Easy
+                    </div>
+                    <div class="row py-2 fs-5">
+                        Xpert printing easy involves optimizing several aspects of the process, from setting up the
+                        printer to using user-friendly software and ensuring reliable performance.
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row">
+                                <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                                    style="width: 80px; height: 80px;">
+                                    <i class="fa-solid fa-square-check fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div class="text-white text-center">Select Product</div>
+                            <p class="text-center">Choose a Product that you like to Print. We will make you happy with
+                                your choices.</p>
+                        </div>
+                        <div class="col-1 d-none d-md-block ">
+                            <div class="row">
+                                <div class="col-6">
+                                    <i class="fa-solid fa-minus fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                                <div class="col-6">
+                                    <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row">
+                                <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                                    style="width: 80px; height: 80px;">
+                                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div class="text-white text-center">Checkout & Order</div>
+                            <p class="text-center">Checkout and finish your order very easy with one step checkout
+                                extension.</p>
+                        </div>
+                        <div class="col-1  d-none d-md-block">
+                            <div class="row">
+                                <div class="col-6">
+                                    <i class="fa-solid fa-minus fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                                <div class="col-6">
+                                    <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row">
+                                <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                                    style="width: 80px; height: 80px;">
+                                    <i class="fa-solid fa-upload fa-2xl" style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            <div class="text-white text-center">Upload Your Design</div>
+                            <p class="text-center">Upload your finished design here and we'll print it for you with your
+                                choices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="container mt-5 pt-5">
+        <div class="row border position-relative">
+            <h1 class="text-center border position-absolute translate-middle start-50 top-50 bg-light px-3 col-md-4">
+                Our Services
+            </h1>
+        </div>
+        <div class="row mt-5 text-center fs-5">
+            <p>CHOOSE THE DESIGN PATH THAT IS RIGHT BEFORE UPLOAD FILE</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mt-5">
+                <div class="card h-100 pb-2">
+                    <img src="./Images/image 62.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text text-center">Enter your custom specs below and we will produce an estimate
+                            for you within 24 hours.</p>
+                    </div>
+                    <div class="justify-content-center d-flex">
+                        <div class="btn btn-outline-primary">Custom Quote</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-5">
+                <div class="card h-100 pb-2">
+                    <img src="./Images/image 63.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center">Get a professional design fast,at an affordable price!</p>
+                    </div>
+                    <div class="justify-content-center d-flex">
+                        <div class="btn btn-outline-primary">Design Services</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-5">
+                <div class="card h-100 pb-2">
+                    <img src="./Images/image 62 (1).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center">Thick, Premium quality cardstock Vibrant full color
+                            printing Gloss or uncoated finish </p>
+                    </div>
+                    <div class="justify-content-center d-flex">
+                        <div class="btn btn-outline-primary">Mailing Services</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-5">
+                <div class="card h-100 pb-2">
+                    <img src="./Images/image 62 (2).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center">This Samples kits and Get $20 Off on your next Purchase!
+                        </p>
+                    </div>
+                    <div class="justify-content-center d-flex">
+                        <div class="btn btn-outline-primary">Sample Request</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="container mt-5 pt-5">
+        <div class="row border position-relative">
+            <h1 class="text-center border position-absolute translate-middle start-50 top-50 bg-light px-3 col-md-4">
+                Our Services
+            </h1>
+        </div>
+        <div class="row mt-5 text-center fs-5">
+            <p>1,000,000+ business professionals trust us with their printing.</p>
+        </div>
+        <div class="row bg-body-tertiary p-5">
+            <div
+                class="col-12 col-lg-3 col-md-6  d-flex flex-column justify-content-center align-items-center px-3 h-100 mt-3">
+                <div class="row">
+                    <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                        style="width: 80px; height: 80px;">
+                        <i class="fa-solid fa-thumbs-up fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="text-center fs-5 fw-bold">Quality Printing</div>
+                <p class="text-center py-2">Bright inks Thick Paper Precise cuts. We beleve that quality printing
+                    matters. That quality printing matters.
+                </p>
+                <div class="btn btn-outline-primary">
+                    Read More
+                </div>
+            </div>
+            <div
+                class="col-12 col-lg-3 col-md-6  d-flex flex-column justify-content-center align-items-center px-3 h-100 mt-3">
+                <div class="row">
+                    <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                        style="width: 80px; height: 80px;">
+                        <i class="fa-brands fa-telegram fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="text-center fs-5 fw-bold">Timely Delivery</div>
+                <p class="text-center py-2">No printer is faster. Order today by 8:00pm EST and you can even get it
+                    tomorrow.
+                </p>
+                <div class="btn btn-outline-primary">
+                    Read More
+                </div>
+            </div>
+            <div
+                class="col-12 col-lg-3 col-md-6  d-flex flex-column justify-content-center align-items-center px-3 h-100 mt-3">
+                <div class="row">
+                    <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                        style="width: 80px; height: 80px;">
+                        <i class="fa-solid fa-leaf fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="text-center fs-5 fw-bold">Eco-Minded</div>
+                <p class="text-center py-2">Overnight Prints is the greeneet online printer in the world. See our
+                    Waterless technology.
+                </p>
+                <div class="btn btn-outline-primary">
+                    Read More
+                </div>
+            </div>
+            <div
+                class="col-12 col-lg-3 col-md-6  d-flex flex-column justify-content-center align-items-center px-3 h-100 mt-3">
+                <div class="row">
+                    <div class="rounded-circle p-2 bg-info d-flex justify-content-center align-items-center"
+                        style="width: 80px; height: 80px;">
+                        <i class="fa-regular fa-money-bill-1 fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="text-center fs-5 fw-bold">Money Back Guaranteed</div>
+                <p class="text-center py-2">Moet sellers work with buyers to quickly resolve issues, but if a solution
+                    isn't reached, we can help.
+                </p>
+                <div class="btn btn-outline-primary">
+                    Read More
+                </div>
+            </div>
+
+        </div>
+        <div class="row px-md-5 py-3 bg-secondary-subtle justify-content-between">
+            <div class="col-12 col-lg-4 col-md-8 px-md-5">
+                <h3>Design Services</h3>
+                <p>Trust the professionals with our Design Services expert Graphic designers are on hand to create or
+                    edit marketing materials.</p>
+            </div>
+            <div class="col-12 col-md-4 px-md-5 d-flex align-items-center justify-content-md-end">
+                <div class="btn btn-outline-primary">Find Out More</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ending Text -->
+    <div class="container mt-5">
+        <h3 class="p-5 text-center">
+            Printing Xpert Print Quality Full Color Printing | Business Card Printing | Custom Vinyl Banner Printing | Windows Poster
+        </h3>
+        <p>
+            Printing Xpert is the first local online printing company in New York which provides customers with printing services ranging from full color printing to large format printing at one stop. Printing shop that gives our customers all the necessary information they need about our printing company, and the products and services that we supply. You can find our special offer marketing stationery and all other printing products at a discount.
+        </p>
+        <h4 class="mt-5">
+            Full Color Brochure Printing Service
+        </h4>
+        <p>
+            Our brochure printing is available at a very low cost. The expert designing team makes very creative designs that draws customers' attention towards your business. If you are looking for z-fold brochure printing, or need a tri-fold brochure look, then you came to the right place. Our local designing company can design your business cards, door hangers, flyers, post cards, presentation folders, menus etc. or all kinds of large format printing products, like poster printing, custom vinyl banner design, etc. We are a New York designing company that makes sure to give our customers the best quality work and quick service for all the printing marketing materials.
+        </p>
+        <h4 class="mt-5">
+            Printing Company in Long Island New York
+        </h4>
+        <p>
+            Two Color Glossy business card printing and quality paper work is very hard to find together. Our Nassau County Long Island printing company is proud to provide quality business card printing at a low cost to our customers. Plastic business cards give a good impression to your customers. All of our printing product prices, quality work and quick services guarantee customer satisfaction. It is the goal of every customer to get more clients and it is only possible when you make the right choice designing and printing. We design custom 4.25x11 door hangers, as well as customer flyer printing. Our customers will get affordable door hanger printing with fast delivery. Business card printing in NYC gives top quality designing service to their customer at a fast turnaround.
+        </p>
+        <h4 class="mt-5">
+            Business Letterhead Designing and Printing
+        </h4>
+        <p>
+            We are a Suffolk County New York printing company that can give impressive business letterhead designs and quality printing work to our customers. Our professional envelope printing is available at a low cost. Every business needs some advertising and we have a special offer on post card printing for your business's advertisements. Full color 4x6 post card printing will help boost your business. We can design the products according to customer requirements after approval. We are a New Hyde Park based printing company that can print your Restaurant Menu printing or any other product and provide quick delivery service. Our quality 2 3 4 carbonless ncr business forms printing is made according to the customer's requirements. When you need to promote your business more professionally, presentation folder printing can help you reach your goal. It is all available with us at very good price.
+        </p>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="fluid-container bg-primary py-5 mt-5">
+        <div class="container">
+            <div class="row px-3">
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Company</div>
+                    <div class="row">About Us</div>
+                    <div class="row">Monthly Promotional</div>
+                    <div class="row">Comunity Program</div>
+                    <div class="row">Link To Us</div>
+                    <div class="row">Review Us</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Trust</div>
+                    <div class="row">Privacy Policy</div>
+                    <div class="row">Term And Condition</div>
+                    <div class="row">My Reward Program</div>
+                    <div class="row">Review On The Web</div>
+                    <div class="row">Blog</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Quick Links</div>
+                    <div class="row">Home</div>
+                    <div class="row">Mailing Services</div>
+                    <div class="row">Free Quota</div>
+                    <div class="row">Sample Request</div>
+                    <div class="row">SignUp E-Coupon</div>
+                </div>
+
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Support</div>
+                    <div class="row">Contact Us</div>
+                    <div class="row">Help Center</div>
+                    <div class="row">Printing Material Guide</div>
+                    <div class="row">How To Order</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Ideas & Insipration</div>
+                    <div class="row">Customer Review</div>
+                    <div class="row">Template</div>
+                    <div class="row">What is Rgc</div>
+                    <div class="row">What is Bleed</div>
+                    <div class="row">Special Deals</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Printing Services</div>
+                    <div class="row">Go Green Print</div>
+                    <div class="row">Custom Design</div>
+                    <div class="row">Turnaround Time</div>
+                    <div class="row">Full Color Print</div>
+                    <div class="row">New York Print</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-3">
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="row fs-3 fw-3 text-white text-center text-md-start">
+                        <p>Customer Support</p>
+                    </div>
+                    <div class="row ms-md-4 mt-3 py-2 text-center text-md-start"><i class="fa-solid fa-headset"
+                            style="color: #ffffff; font-size: 100px;"></i></div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="row text-white  text-center text-md-start">
+                        <p>
+                            <span class="fs-5 fw-bold px-0">Local #. 516.492.3000</span><br>Get insider tips about
+                            printing,<br>design, marketing, and more <br>on your favorite social network.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="row">
+                        <div class="col-1"><i class="fa-solid fa-credit-card" style="color: #ffffff;"></i></div>
+                        <div class="col text-white">Payment Method</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 px-0"><img src="./Images/atm4.png" alt="" width="70px"></div>
+                        <div class="col-2 px-0"><img src="./Images/atm3.png" alt="" width="70px"></div>
+                        <div class="col-2 px-0"><img src="./Images/atm1.png" alt="" width="70px"></div>
+                        <div class="col-2 px-0"><img src="./Images/atm2.png" alt="" width="70px"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-3 text-white">Download:</div>
+                        <div class="col-6"><img src="./Images/android and apple.png" alt=""></div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 offset-md-4 mt-3">
+                    <div class="row">
+                        <div class="col-4 text-white">Follow Us:</div>
+                        <div class="col-2"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="col-2"><i class="fa-brands fa-square-twitter fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="col-2"><i class="fa-brands fa-square-youtube fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="col-2"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Business Card Printing</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 mt-3">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <img src="./Images/Xpert logo1 1.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-8 d-flex align-items-center">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search For Products">
+                            <div class="btn btn-primary">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center mt-3">
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>1234567890</span>
+                    </div>
+                    <div class="col-6 d-flex justify-content-around">
+                        <div class="btn btn-outline-primary">
+                            <a class="nav-link" href="#">Login</a>
+                        </div>
+                        <div class="btn btn-outline-primary">
+                            <a class="nav-link" href="#">Signup</a>
+                        </div>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <div class="bg-primary p-2 rounded d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bg-primary text-white rounded" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-list" style="color: #ffffff;"></i>
+                                <span> View All Products</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Business Card</a></li>
+                                <li><a class="dropdown-item" href="#">Wedding Card</a></li>
+                                <li><a class="dropdown-item" href="#">Restaurant Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2 dropdown">
+                            <a class="nav-link dropdown-toggle text-danger" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                200+ Printing Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">All Visiting Card</a></li>
+                                <li><a class="dropdown-item" href="#">Premium business Card</a></li>
+                                <li><a class="dropdown-item" href="#">Standard Visiting Card</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Service 1</a></li>
+                                <li><a class="dropdown-item" href="#">Service 2</a></li>
+                                <li><a class="dropdown-item" href="#">Service 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Custom Quote</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Shop By Industry</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn position-relative">
+                        <i class="fa-regular fa-heart fa-2xl"></i>
+                        <span
+                            class="position-absolute top-0 start-30 translate-middle badge rounded-pill text-bg-primary">3
+                        </span>
+                    </button>
+                    <button type="button" class="btn position-relative">
+                        <i class="fa-regular fa-envelope fa-2xl"></i>
+                        <span
+                            class="position-absolute top-0 start-30 translate-middle badge rounded-pill text-bg-primary">8
+                        </span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <div class="fluid-container">
+        <div
+            style="background-image: url('./Images/general-printing-2-300x214\ 2.png'); background-size: cover; background-position: center; height: 250px;">
+            <div class="text-white text-center bg-black bg-opacity-75 h-100 d-flex justify-content-center flex-column">
+                <h1>Business Card Printing</h1>
+                <p>Home | Printing | Products | Offset Printing | Business Cards</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <h1>Raised Business Card Printing</h1>
+            <p>Custom made PVC / RFID Cards. On-demand changes will be entertained. Contact us now to get a free quote.
+            </p>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-lg-8 mt-3">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="row">
+                            <img src="./Images/6.png" alt="">
+                        </div>
+                        <div class="row py-2">
+                            <img src="./Images/6.png" alt="">
+                        </div>
+                        <div class="row">
+                            <img src="./Images/6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <img src="./Images/image 45.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6>
+                        <span>
+                            <i class="fa-solid fa-check fa-xl" style="color: #1eff00;"></i>
+                        </span> Standard 3.5 x 2 Sized Business Cards
+                    </h6>
+                    <h6>
+                        <span>
+                            <i class="fa-solid fa-check fa-xl" style="color: #1eff00;"></i>
+                        </span> Raised Text Printing Creates an Amazing Look & Feels
+                    </h6>
+                    <h6>
+                        <span>
+                            <i class="fa-solid fa-check fa-xl" style="color: #1eff00;"></i>
+                        </span> 80# Bright White, Linen or Heavy 100# Card Stock
+                    </h6>
+                    <h6>
+                        <span>
+                            <i class="fa-solid fa-check fa-xl" style="color: #1eff00;"></i>
+                        </span> Choice of 1 to 2 PMS Colors on One or Both Sides
+                    </h6>
+                    <h6>
+                        <span>
+                            <i class="fa-solid fa-check fa-xl" style="color: #1eff00;"></i>
+                        </span> Superior Custom Design Service Available
+                    </h6>
+                    <h6>
+                        <span>
+                            <i class="fa-solid fa-check fa-xl" style="color: #1eff00;"></i>
+                        </span> Free Online PDF Proof & Fast Turnaround
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3">
+                <div class="row bg-light py-2">
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Size</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Size</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Quality</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Quality</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Color</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Color</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Paper</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Paper</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Coating</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Coating</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Corners</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Corners</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Proof</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Proof</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">File Status</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select File Status</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="size" class="form-label fs-5 fw-bolder mb-0">Production Time</label>
+                        <select id="size" class="form-select " aria-label="Default select example">
+                            <option selected>Select Production Time</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+
+                </div>
+                <div class="row bg-primary-subtle mt-3">
+                    <div class="fs-4 fw-bolder text-center text-primary py-3">$ 0.00</div>
+                </div>
+                <div class="row">
+                    <p class="text-primary text-center">select options above to get instant pricing</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    <div class="col-6 fw-bolder fs-5">Price Start from $35.99</div>
+                    <div class="col-6 text-danger fs-5 text-decoration-underline fw-bolder">Get your File Checked for
+                        free!</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-3 mt-3 px-2 h-100">
+                        <div class="row">
+                            <img src="./Images/6.png" alt="">
+                        </div>
+                        <div class=" text-center">
+                            <div>Loyalty Card Printing</div>
+                        </div>
+                        <div class=" text-center bg-primary text-white bg-info align-items-center">
+                            <div>Price Start from $37</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-3 px-2 h-100">
+                        <div class="row">
+                            <img src="./Images/image 47.png" alt="">
+                        </div>
+                        <div class=" text-center">
+                            <div>Plastic Business Card</div>
+                        </div>
+                        <div class=" text-center bg-primary text-white bg-info align-items-center">
+                            <div>Price Start from $129</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-3 px-2 h-100">
+                        <div class="row">
+                            <img src="./Images/image 48.png" alt="">
+                        </div>
+                        <div class=" text-center">
+                            <div>Silk Laminated Card</div>
+                        </div>
+                        <div class=" text-center bg-primary text-white bg-info align-items-center">
+                            <div>Price Start from $16</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-3 px-2 h-100">
+                        <div class="row">
+                            <img src="./Images/image 49.png" alt="">
+                        </div>
+                        <div class=" text-center">
+                            <div>Plastic Business Card</div>
+                        </div>
+                        <div class=" text-center bg-primary text-white bg-info align-items-center">
+                            <div>Price Start from $25</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mt-5 bg-info justify-content-between p-3 bg-gradient">
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <i class="fa-solid fa-truck-fast fa-2xl" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="col-9 offset-1 text-white">
+                                <p class="mb-0">Shiping Local / International</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <i class="fa-solid fa-palette fa-2xl" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="col-9 offset-1 text-white">
+                                <p class="mb-0">Online Design Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <i class="fa-solid fa-umbrella fa-2xl" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="col-9 offset-1 text-white">
+                                <p class="mb-0">Online Design Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <div class="row mt-5">
+                    <table class="table">
+                        <thead>
+                            <tr class="table-primary">
+                                <th scope="col">No.</th>
+                                <th scope="col">More Information</th>
+                                <th scope="col">Tracking No.</th>
+                                <th scope="col">Weight</th>
+                                <th scope="col">Location</th>
+                                <th scope="col"><i class="fa-solid fa-plane fa-xl" style="color: #000000;"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-light">
+                                <th scope="row">1</th>
+                                <td>Business Card</td>
+                                <td>123456789</td>
+                                <td>2.5kg</td>
+                                <td>New York-USA</td>
+                                <td></td>
+                            </tr>
+                            <tr class="table-light">
+                                <th scope="row">2</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="table-light">
+                                <th scope="row">3</th>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="table-light">
+                                <th scope="row">4</th>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <input class="form-control mt-5" type="file" id="formFile">
+                <div class="btn btn-primary mt-3">Add To Cart</div>
+                <div class="row bg-info text-center text-white mt-5">
+                    <h3>Get Shipping Estimate</h3>
+                </div>
+                <div class="mt-2 row">
+                    <label for="name" class="col-3 col-form-label fw-bolder">Product:</label>
+                    <div class="col-9">
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                </div>
+                <div class="mt-2 row">
+                    <label for="track" class="col-3 col-form-label fw-bolder">Tracking:</label>
+                    <div class="col-9">
+                        <input type="tel" class="form-control" id="track">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fluid-container bg-secondary-subtle">
+        <div class="container">
+            <div class=" row px-md-5 py-3  justify-content-between">
+                <div class="col-12 col-lg-4 col-md-8 px-md-5">
+                    <h3>Design Services</h3>
+                    <p>Trust the professionals with our Design Services expert Graphic designers are on hand to create or
+                        edit marketing materials.</p>
+                </div>
+                <div class="col-12 col-md-4 px-md-5 d-flex align-items-center justify-content-md-end">
+                    <div class="btn btn-outline-primary">Find Out More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="fluid-container bg-primary py-5">
+        <div class="container">
+            <div class="row px-3">
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Company</div>
+                    <div class="row">About Us</div>
+                    <div class="row">Monthly Promotional</div>
+                    <div class="row">Comunity Program</div>
+                    <div class="row">Link To Us</div>
+                    <div class="row">Review Us</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Trust</div>
+                    <div class="row">Privacy Policy</div>
+                    <div class="row">Term And Condition</div>
+                    <div class="row">My Reward Program</div>
+                    <div class="row">Review On The Web</div>
+                    <div class="row">Blog</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Quick Links</div>
+                    <div class="row">Home</div>
+                    <div class="row">Mailing Services</div>
+                    <div class="row">Free Quota</div>
+                    <div class="row">Sample Request</div>
+                    <div class="row">SignUp E-Coupon</div>
+                </div>
+
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Support</div>
+                    <div class="row">Contact Us</div>
+                    <div class="row">Help Center</div>
+                    <div class="row">Printing Material Guide</div>
+                    <div class="row">How To Order</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Ideas & Insipration</div>
+                    <div class="row">Customer Review</div>
+                    <div class="row">Template</div>
+                    <div class="row">What is Rgc</div>
+                    <div class="row">What is Bleed</div>
+                    <div class="row">Special Deals</div>
+                </div>
+                <div class="col-6 col-md-4 text-white mt-4">
+                    <div class="row fs-3 fw-3 py-2">Printing Services</div>
+                    <div class="row">Go Green Print</div>
+                    <div class="row">Custom Design</div>
+                    <div class="row">Turnaround Time</div>
+                    <div class="row">Full Color Print</div>
+                    <div class="row">New York Print</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-3">
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="row fs-3 fw-3 text-white text-center text-md-start">
+                        <p>Customer Support</p>
+                    </div>
+                    <div class="row ms-md-4 mt-3 py-2 text-center text-md-start"><i class="fa-solid fa-headset"
+                            style="color: #ffffff; font-size: 100px;"></i></div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="row text-white  text-center text-md-start">
+                        <p>
+                            <span class="fs-5 fw-bold px-0">Local #. 516.492.3000</span><br>Get insider tips about
+                            printing,<br>design, marketing, and more <br>on your favorite social network.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="row">
+                        <div class="col-1"><i class="fa-solid fa-credit-card" style="color: #ffffff;"></i></div>
+                        <div class="col text-white">Payment Method</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 px-0"><img src="./Images/atm4.png" alt="" width="70px"></div>
+                        <div class="col-2 px-0"><img src="./Images/atm3.png" alt="" width="70px"></div>
+                        <div class="col-2 px-0"><img src="./Images/atm1.png" alt="" width="70px"></div>
+                        <div class="col-2 px-0"><img src="./Images/atm2.png" alt="" width="70px"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-3 text-white">Download:</div>
+                        <div class="col-6"><img src="./Images/android and apple.png" alt=""></div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 offset-md-4 mt-3">
+                    <div class="row">
+                        <div class="col-4 text-white">Follow Us:</div>
+                        <div class="col-2"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="col-2"><i class="fa-brands fa-square-twitter fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="col-2"><i class="fa-brands fa-square-youtube fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="col-2"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
